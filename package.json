@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress-browserstack" :"browserstack-cypress run --sync --spec cypress/Mysuit/MyFirstTest.js",
+    "cypress-browserstack-fruit" :"browserstack-cypress run --sync --spec cypress/Mysuit/fruitKart.js",
+    "fruit" :"npx cypress run --browser electron --headed --spec cypress/Mysuit/fruitKart.js"
+  },
+
+  "author": "", 
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+  "cypress": "^13.6.6"
+  }
+}
